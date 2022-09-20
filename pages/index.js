@@ -3,7 +3,10 @@ import Image from "next/image";
 import Details from "../components/Details/Index";
 import Explore from "../components/Explore/Index";
 import Hero from "../components/Hero/Index";
+import Loan from "../components/Homeloan/Index";
+import List2 from "../components/List-2/Index";
 import List from "../components/List/Index";
+import ReadMore from "../components/Readmore/Index";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -13,6 +16,9 @@ export default function Home() {
       <List />
       <Explore />
       <Details />
+      <ReadMore />
+      <List2 />
+      <Loan />
     </>
   );
 }
