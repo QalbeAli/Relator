@@ -7,7 +7,7 @@ import SearchIcon from '@mui/icons-material/Search';
 const Loan = () => {
     return (
         <>
-            <Box>
+            <Box className="mb-12">
                 <Grid container className="hidden lg:flex">
                     <Grid item sx={12} md={6}>
                         <Box>
@@ -40,7 +40,7 @@ const Loan = () => {
                 </Grid>
                 <Grid container className="hidden lg:flex">
                     <Grid item sx={12} md={6}>
-                        <Box className="flex items-center ml-10 h-full">
+                        <Box className="flex items-center ml-10 h-full  border-b border-black">
                             <div >
 
                                 <Box>

@@ -5,6 +5,8 @@ import read from "./read.jpg";
 import trend from "./trend.jpg";
 import walk from "./walk.jpg";
 import sit from "./sit.jpg";
+import real from "./real.svg";
+import ebook from "./ebook.png";
 export default {
   main,
   sale1,
@@ -13,4 +15,6 @@ export default {
   trend,
   walk,
   sit,
+  real,
+  ebook,
 };
