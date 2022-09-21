@@ -7,7 +7,7 @@ const Details = () => {
             <Container maxWidth="xl">
                 <Box>
                     <Typography variant="h5" fontWeight="bold">
-                        What's happening in Columbia, SC
+                        Whats happening in Columbia SC
                     </Typography>
                 </Box>
                 <Box className="flex justify-center items-center ">
@@ -32,7 +32,7 @@ const Details = () => {
                         </Box>
                         <Box>
                             <Typography variant="subtitle1" fontSize="2.5rem" className="text-blue-500 text-center " >
-                                3,405
+                                3405
                             </Typography>
                             <Typography variant="subtitle1" fontSize="1.1rem">
                                 Recently Sold

@@ -95,13 +95,16 @@ const Index = () => {
                                     <ul>
                                         {
                                             linkMap.map((item, key) => (
-                                                <Link href={item.link}>
-                                                    <a>
-                                                        <li className="text-blue-500 underline">
-                                                            {item.title}
-                                                        </li>
-                                                    </a>
-                                                </Link>
+                                                <Box key={key}>
+
+                                                    <Link href={item.link}>
+                                                        <a>
+                                                            <li className="text-blue-500 underline">
+                                                                {item.title}
+                                                            </li>
+                                                        </a>
+                                                    </Link>
+                                                </Box>
                                             ))
                                         }
                                     </ul>
@@ -122,13 +125,15 @@ const Index = () => {
                                     <ul>
                                         {
                                             linkMap1.map((item, key) => (
-                                                <Link href={item.link}>
-                                                    <a>
-                                                        <li className="text-blue-500 underline">
-                                                            {item.title}
-                                                        </li>
-                                                    </a>
-                                                </Link>
+                                                <Box key={key}>
+                                                    <Link href={item.link}>
+                                                        <a>
+                                                            <li className="text-blue-500 underline">
+                                                                {item.title}
+                                                            </li>
+                                                        </a>
+                                                    </Link>
+                                                </Box>
                                             ))
                                         }
                                     </ul>
@@ -149,13 +154,15 @@ const Index = () => {
                                     <ul>
                                         {
                                             linkMap2.map((item, key) => (
-                                                <Link href={item.link}>
-                                                    <a>
-                                                        <li className="text-blue-500 underline">
-                                                            {item.title}
-                                                        </li>
-                                                    </a>
-                                                </Link>
+                                                <Box key={key}>
+                                                    <Link href={item.link}>
+                                                        <a>
+                                                            <li className="text-blue-500 underline">
+                                                                {item.title}
+                                                            </li>
+                                                        </a>
+                                                    </Link>
+                                                </Box>
                                             ))
                                         }
                                     </ul>
@@ -176,13 +183,15 @@ const Index = () => {
                                     <ul>
                                         {
                                             linkMap3.map((item, key) => (
-                                                <Link href={item.link}>
-                                                    <a>
-                                                        <li className="text-blue-500 underline">
-                                                            {item.title}
-                                                        </li>
-                                                    </a>
-                                                </Link>
+                                                <Box key={key}>
+                                                    <Link href={item.link}>
+                                                        <a>
+                                                            <li className="text-blue-500 underline">
+                                                                {item.title}
+                                                            </li>
+                                                        </a>
+                                                    </Link>
+                                                </Box>
                                             ))
                                         }
                                     </ul>

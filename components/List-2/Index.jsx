@@ -1,5 +1,6 @@
 import { Box, Container } from '@mui/material'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import Images from "../../public/Images/images"
 
@@ -12,24 +13,30 @@ const List2 = () => {
                     {
                         [1, 2, 3, 4].map((item, key) => {
                             return (
-                                <a href="#" class="block p-4 m-2 rounded-lg hover:scale-105 transition duration-300 border hover:shadow-lg shadow-indigo-100">
-                                    <Image
-                                        alt="Home"
-                                        src={Images.trend}
+                                <Box key={key}>
+                                    <Link href="/">
+                                        <a class="block p-4 m-2 rounded-lg hover:scale-105 transition duration-300 border hover:shadow-lg shadow-indigo-100">
+                                            <Image
+                                                alt="Home"
+                                                src={Images.trend}
 
-                                    />
-                                    <div class="mt-2">
-                                        <dl>
-                                            <div>
+                                            />
+                                            <div class="mt-2">
+                                                <dl>
+                                                    <div>
 
-                                                <dd className="text-sm text-gray-500">Will Home Prices Drop? Will Mortgage Rates Rise? What To Expect in the Fall...</dd>
+                                                        <dd className="text-sm text-gray-500">Will Home Prices Drop? Will Mortgage Rates Rise? What To Expect in the Fall...</dd>
+                                                    </div>
+
+                                                </dl>
+
+
                                             </div>
+                                        </a>
+                                    </Link>
 
-                                        </dl>
+                                </Box>
 
-
-                                    </div>
-                                </a>
                             )
                         })
                     }

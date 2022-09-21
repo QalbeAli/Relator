@@ -20,7 +20,7 @@ const Explore = () => {
                     </Grid>
                     <Grid item xs={12} md={6} className="order-2">
                         <Box >
-                            <Image src={Images.cut} />
+                            <Image src={Images.cut} alt="Something" />
                         </Box>
                     </Grid>
                 </Grid>

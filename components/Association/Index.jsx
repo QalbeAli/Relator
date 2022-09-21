@@ -10,7 +10,7 @@ const linkMap = [
     link: "/"
   },
   {
-    title: "Agent vs. REALTOR",
+    title: "Agent vs. Property267",
     link: "/"
   },
   {
@@ -43,7 +43,7 @@ const linkMap2 = [
     link: "/"
   },
   {
-    title: "Reasons to work with a REALTOR®",
+    title: "Reasons to work with a Property267",
     link: "/"
   },
 ]
@@ -78,11 +78,11 @@ const Index = () => {
             <Grid container spacing={1}>
               <Grid item xs={12} sm={6} md={3}>
                 <Box>
-                  <Image src={Images.real} />
+                  <Image src={Images.real} alt="real" />
                 </Box>
                 <Box>
                   <Typography variant="subtitle1">
-                    Find out how the NAR works <br /> for consumers and REALTORS®
+                    Find out how the NAR works <br /> for consumers and Property267®
                   </Typography>
                 </Box>
               </Grid>
@@ -94,13 +94,15 @@ const Index = () => {
                   <ul>
                     {
                       linkMap.map((item, key) => (
-                        <Link href={item.link}>
-                          <a>
-                            <li className="text-blue-500">
-                              • {item.title}
-                            </li>
-                          </a>
-                        </Link>
+                        <Box key={key}>
+                          <Link href={item.link}>
+                            <a>
+                              <li className="text-blue-500">
+                                • {item.title}
+                              </li>
+                            </a>
+                          </Link>
+                        </Box>
                       ))
                     }
                   </ul>
@@ -114,13 +116,15 @@ const Index = () => {
                   <ul>
                     {
                       linkMap2.map((item, key) => (
-                        <Link href={item.link}>
-                          <a>
-                            <li className="text-blue-500">
-                              • {item.title}
-                            </li>
-                          </a>
-                        </Link>
+                        <Box key={key}>
+                          <Link href={item.link}>
+                            <a>
+                              <li className="text-blue-500">
+                                • {item.title}
+                              </li>
+                            </a>
+                          </Link>
+                        </Box>
                       ))
                     }
                   </ul>
@@ -134,13 +138,15 @@ const Index = () => {
                   <ul>
                     {
                       linkMap3.map((item, key) => (
-                        <Link href={item.link}>
-                          <a>
-                            <li className="text-blue-500">
-                              • {item.title}
-                            </li>
-                          </a>
-                        </Link>
+                        <Box key={key}>
+                          <Link href={item.link}>
+                            <a>
+                              <li className="text-blue-500">
+                                • {item.title}
+                              </li>
+                            </a>
+                          </Link>
+                        </Box>
                       ))
                     }
                   </ul>
@@ -148,8 +154,8 @@ const Index = () => {
               </Grid>
             </Grid>
           </Box>
-        </Container>
-      </Box>
+        </Container >
+      </Box >
 
     </>
   )

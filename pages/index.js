@@ -19,14 +19,14 @@ export default function Home() {
       <Hero />
       <List />
       <Explore />
-      <Details />
+      {/* <Details /> */}
       <ReadMore />
       <List2 />
       <Loan />
-      <Association />
+      {/* <Association /> */}
       <Popular />
-      <EBook />
-      <Footer />
+      {/* <EBook /> */}
+      {/* <Footer /> */}
     </>
   );
 }

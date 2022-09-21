@@ -45,11 +45,13 @@ const Hero = () => {
           <p className="mt-2 mb-10 text-2xl text-white">Let’s find a home that’s perfect for you</p>
           <ul className="flex   justify-center font-bold  text-sm text-white">
             {linkMap.map((item, key) => (
-              <Link href={item.link}>
-                <li className=" whitespace-nowrap cursor-pointer px-3 py-2 border-2 border-transparent hover:border-b-red-600 transition duration-300">
-                  <a>{item.title}</a>
-                </li>
-              </Link>
+              <div key={key}>
+                <Link href={item.link}>
+                  <li className=" whitespace-nowrap cursor-pointer px-3 py-2 border-2 border-transparent hover:border-b-red-600 transition duration-300">
+                    <a>{item.title}</a>
+                  </li>
+                </Link>
+              </div>
             ))}
 
           </ul>

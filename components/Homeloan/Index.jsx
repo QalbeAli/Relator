@@ -20,7 +20,7 @@ const Loan = () => {
 
                                 <Box>
                                     <Typography variant="h4" fontWeight="bold">
-                                        Need a home loan? Get pre- approved
+                                        Need a home loan? Get preapproved
                                     </Typography>
                                 </Box>
                                 <Box>
@@ -50,7 +50,7 @@ const Loan = () => {
                                 </Box>
                                 <Box>
                                     <Typography variant="h5" className="pt-2 pb-4">
-                                        Does it have pet-friendly rentals? How are the schools? Get important <br /> local information on the area you're most interested in.
+                                        Does it have petfriendly rentals? How are the schools? Get important <br /> local information on the area youre most interested in.
                                     </Typography>
                                 </Box>
 
