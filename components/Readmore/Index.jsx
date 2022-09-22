@@ -31,7 +31,7 @@ const ReadMore = () => {
                                 borderColor: "white"
                             }
                         }} variant="outlined" className="text-white border border-white color-white rounded-full px-5 ">
-                            Get pre
+                            Read More
                         </Button>
                     </Box>
                 </Box>
