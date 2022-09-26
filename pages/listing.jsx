@@ -6,6 +6,7 @@ import LisitingQuality from '../components/Listing-Quality/Index'
 import Form from '../components/Form/Index'
 import FormButton from '../components/FormButtons/Index'
 import Details from '../components/Step2/Index'
+import Media from '../components/Step3/Index'
 
 const listing = () => {
     return (
@@ -15,7 +16,7 @@ const listing = () => {
                 {/* <HorizontalNonLinearStepper /> */}
                 <LisitingQuality />
                 {/* <Form /> */}
-                <Details />
+                <Media />
                 <FormButton />
             </Container>
         </>
