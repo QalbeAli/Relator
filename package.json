@@ -18,7 +18,9 @@
     "@unform/web": "^2.1.6",
     "antd": "4.12.1",
     "formik-antd": "2.0.1",
-    
+    "date-fns": "latest",
+    "dayjs": "latest",
+    "@mui/x-date-pickers": "latest",
     "react-final-form": "^6.5.3",
     "react-hook-form": "^7.5.2",
     "final-form": "^4.20.2",
