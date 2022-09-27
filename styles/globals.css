@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
 /* @import "../../CustomHelpers/_customBootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Cabin');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700'); */
@@ -275,7 +277,7 @@ div.tablediv > .table-bordered {
 }
 .ui-jqgrid .ui-jqgrid-btable {
   table-layout: fixed;
-  border-left: none ;
+  border-left: none;
   border-top: none;
   margin-bottom: 0px;
 }
@@ -399,7 +401,7 @@ div.tablediv > .table-bordered {
   display: inline-block;
   height: auto;
   width: auto;
-  font-size: .9em;
+  font-size: 0.9em;
   margin: 0;
   line-height: inherit;
   border: none;
@@ -407,7 +409,7 @@ div.tablediv > .table-bordered {
 }
 .ui-jqgrid .ui-pg-selbox,
 .ui-jqgrid .ui-jqgrid-toppager .ui-pg-selbox {
-  font-size: .9em;
+  font-size: 0.9em;
   line-height: inherit;
   display: block;
   height: 22px;
@@ -418,13 +420,13 @@ div.tablediv > .table-bordered {
 .ui-jqgrid .ui-separator {
   height: 18px;
   border: none;
-  border-left: 2px solid #ccc ;
+  border-left: 2px solid #ccc;
   /*default*/
 }
 .ui-separator-li {
   height: 2px;
   border: none;
-  border-top: 2px solid #ccc ;
+  border-top: 2px solid #ccc;
   /*default*/
   margin: 0;
   padding: 0;
@@ -565,11 +567,11 @@ div.tablediv > .table-bordered {
   overflow: visible;
 }
 .ui-jqdialog .ui-jqdialog-titlebar {
-  padding: .1em .1em;
+  padding: 0.1em 0.1em;
   min-height: 35px;
 }
 .ui-jqdialog .ui-jqdialog-title {
-  margin: .3em 0 .2em;
+  margin: 0.3em 0 0.2em;
   font-weight: bold;
   padding-left: 6px;
   padding-right: 6px;
@@ -588,12 +590,12 @@ div.tablediv > .table-bordered {
 .ui-jqdialog-content,
 .ui-jqdialog .ui-jqdialog-content {
   border: 0;
-  padding: .3em .2em;
+  padding: 0.3em 0.2em;
   background: none;
   height: auto;
 }
 .ui-jqdialog .ui-jqconfirm {
-  padding: .4em 1em;
+  padding: 0.4em 1em;
   border-width: 3px;
   position: absolute;
   bottom: 10px;
@@ -649,15 +651,15 @@ div.tablediv > .table-bordered {
   padding-top: 5px;
 }
 .ui-jqdialog-content input.FormElement {
-  padding: .5em .3em;
+  padding: 0.5em 0.3em;
   margin-bottom: 5px;
 }
 .ui-jqdialog-content select.FormElement {
-  padding: .3em;
+  padding: 0.3em;
   margin-bottom: 3px;
 }
 .ui-jqdialog-content .data-line {
-  padding-top: .1em;
+  padding-top: 0.1em;
   border: 0 none;
 }
 .ui-jqdialog-content .CaptionTD {
@@ -822,7 +824,7 @@ a.clearsearchclass {
   padding: 4px 3px;
 }
 .ui-disabled {
-  opacity: .35;
+  opacity: 0.35;
   filter: alpha(opacity=35);
   /* support: IE8 */
   background-image: none;
@@ -834,7 +836,7 @@ a.clearsearchclass {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  opacity: .3;
+  opacity: 0.3;
   filter: alpha(opacity=30);
   /* support: IE8 */
 }
@@ -1016,7 +1018,7 @@ td.menu_text {
   position: relative;
   /*top: 0;*/
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: "Glyphicons Halflings";
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -2067,7 +2069,7 @@ td.menu_text {
 }
 .bootstrap-datetimepicker-widget.dropdown-menu:before,
 .bootstrap-datetimepicker-widget.dropdown-menu:after {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
 }
@@ -2311,7 +2313,7 @@ td.menu_text {
   width: 54px;
 }
 .bootstrap-datetimepicker-widget table td.cw {
-  font-size: .8em;
+  font-size: 0.8em;
   height: 20px;
   line-height: 20px;
   color: #777777;
@@ -2336,7 +2338,7 @@ td.menu_text {
   position: relative;
 }
 .bootstrap-datetimepicker-widget table td.today:before {
-  content: '';
+  content: "";
   display: inline-block;
   border: solid transparent;
   border-width: 0 0 7px 7px;
@@ -2401,7 +2403,7 @@ td.menu_text {
   cursor: pointer;
 }
 body {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
 }
 body h1,
 body .h1,
@@ -2413,10 +2415,10 @@ body h4,
 body .h4,
 body h5,
 body .h5 {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
 }
 body header {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .sr-only {
   position: absolute;

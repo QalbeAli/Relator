@@ -40,10 +40,20 @@ const Navbar = () => {
 
             <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
                 <div className="container flex flex-wrap justify-between items-center mx-auto">
-                    <a href="https://flowbite.com/" className="flex items-center">
-                        {/* <Image src="https://flowbite.com/docs/images/logo.svg" layout='fill' className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> */}
+                    <Link href="/">
+                        <a className="flex items-center">
+                            {/* <Image src="https://flowbite.com/docs/images/logo.svg" layout='fill' className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> */}
 
-                    </a>
+                            <div className="flex justify-center items-center">
+                                <Image src={Images.logo2} alt="" height="50" width="50" />
+                                <div className="text-2xl text-black font-bold">
+                                    Property <span className="text-red-600">267</span>
+                                </div>
+                            </div>
+
+                        </a>
+                    </Link>
+
                     <div className="flex md:order-2 space-x-4">
                         <button onClick={openModal} type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
                         <button onClick={openModal2} type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign Up</button>
@@ -83,7 +93,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav >
 
 
             {/* Login Starts Here */}
@@ -217,7 +227,7 @@ const Navbar = () => {
             {/* Sign Up Form Starts Here */}
 
 
-            <Transition appear show={isOpen2} as={Fragment}>
+            < Transition appear show={isOpen2} as={Fragment}>
                 <Dialog as="div" className="relative z-10" onClose={closeModal2}>
                     <Transition.Child
                         as={Fragment}
@@ -243,21 +253,16 @@ const Navbar = () => {
                                 leaveTo="opacity-0 scale-95"
                             >
                                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                                    <Dialog.Title
-                                        as="h3"
-                                        className="text-lg font-medium leading-6 text-gray-900"
-                                    >
-                                        Sign Up Form
-                                    </Dialog.Title>
+                                    \
                                     <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-                                        <div className="w-full max-w-md space-y-8">
+                                        <div className="w-full max-w-">
                                             <div>
                                                 {/* <img
                                                             className="mx-auto h-12 w-auto"
                                                             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                                                             alt="Your Company"
                                                         /> */}
-                                                <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
+                                                <h2 className=" text-center text-3xl font-bold tracking-tight text-gray-900">
                                                     Create your account
                                                 </h2>
 
@@ -280,9 +285,7 @@ const Navbar = () => {
                                                         </div>
                                                     </div>
 
-                                                    <div className="flex flex-wrap -mx-3 mb-2">
-
-                                                        {/* Here is the Date picker */}
+                                                    <div>
                                                         <LocalizationProvider dateAdapter={AdapterDayjs}>
                                                             <DatePicker
                                                                 label="Date of Birth"
@@ -293,6 +296,11 @@ const Navbar = () => {
                                                                 renderInput={(params) => <TextField {...params} />}
                                                             />
                                                         </LocalizationProvider>
+                                                    </div>
+                                                    <div className="flex flex-wrap -mx-3 mb-2">
+
+                                                        {/* Here is the Date picker */}
+
 
 
                                                         <div className="flex  py-6 ">
@@ -330,7 +338,8 @@ const Navbar = () => {
                                                         <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
                                                             Password
                                                         </label>
-                                                        <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="string" placeholder="Admin" />
+                                                        <input type="password"
+                                                            className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
                                                     </div>
                                                     <div className="w-full">
                                                         <Button variant="contained" className="w-full bg-blue-700">
@@ -348,7 +357,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </Dialog>
-            </Transition>
+            </Transition >
 
 
 

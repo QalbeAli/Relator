@@ -47,7 +47,7 @@ const Hero = () => {
             {linkMap.map((item, key) => (
               <div key={key}>
                 <Link href={item.link}>
-                  <li className=" whitespace-nowrap cursor-pointer px-3 py-2 border-2 border-transparent hover:border-b-red-600 transition duration-300">
+                  <li className=" text-white whitespace-nowrap cursor-pointer px-3 py-2 border-2 border-transparent hover:border-b-red-600 transition duration-300">
                     <a>{item.title}</a>
                   </li>
                 </Link>
