@@ -8,7 +8,7 @@ const Media = () => {
         <>
             <div className="bg-white shadow-md">
                 <div className=" p-2 text-white font-semibold text-lg rounded-md bg-[#337ab7]">
-                    Step3-Media
+                    Steap3-Media
                 </div>
                 <div className='m-2 p-4 rounded-md text-lg bg-[#d9edf7] '>
                     Adding price/picture gives 10x more leads. Also note listings with a price/image will be listed above those without.

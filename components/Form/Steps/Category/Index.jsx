@@ -1,7 +1,8 @@
 import { Box, Grid, Typography, Button } from '@mui/material'
 import React from 'react'
 
-const Step1 = () => {
+const Category = ({ nextStep }) => {
+    console.log(nextStep, "NestStep")
     return (
         <>
             <div className="border border-[#337ab7] rounded-lg my-3"  >
@@ -187,7 +188,7 @@ const Step1 = () => {
     )
 }
 
-export default Step1
+export default Category
 
 
 

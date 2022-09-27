@@ -4,7 +4,7 @@ import Loader from "../Loader/Index"
 const LisitingQuality = () => {
     return (
         <>
-            <Box>
+            <Box pb={4}>
                 <Grid container >
                     <Grid item md={7}>
                         <Typography variant="body2">

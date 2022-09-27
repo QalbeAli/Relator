@@ -24,7 +24,7 @@ const people2 = [
     { id: 6, name: 'Hellen Schmidt' },
 ]
 
-const Details = () => {
+const Detail = () => {
     const [selected, setSelected] = useState(people[0])
 
     // const [selected2, setSelected2] = useState(people[0])
@@ -348,7 +348,6 @@ const Details = () => {
     )
 }
 
-export default Details
-
+export default Detail
 
 
