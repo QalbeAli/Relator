@@ -48,7 +48,7 @@ const Detail = () => {
                             {({ open }) => (
                                 <>
                                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-[#337ab7] px-4 py-2 text-left text-sm font-medium text-white  focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                                        <span>What is your refund policy?</span>
+                                        <span>Details-1</span>
                                         <KeyboardArrowDownIcon
                                             className={`${open ? 'rotate-180 transform' : ''
                                                 } h-5 w-5 text-white`}
@@ -329,7 +329,7 @@ const Detail = () => {
                             {({ open }) => (
                                 <>
                                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-[#337ab7] px-4 py-2 text-left text-sm font-medium text-white  focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                                        <span>Do you offer technical support?</span>
+                                        <span>Deatils-2</span>
                                         <KeyboardArrowDownIcon
                                             className={`${open ? 'rotate-180 transform' : ''
                                                 } h-5 w-5 text-white`}

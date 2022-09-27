@@ -1,6 +1,7 @@
 import { Button } from '@mui/material'
 import React from 'react'
 
+
 const FormButton = ({ handleClick, currentStep, steps }) => {
 
     return (
@@ -16,7 +17,7 @@ const FormButton = ({ handleClick, currentStep, steps }) => {
                     <Button
                         onClick={() => handleClick("next")}
                         variant="contained" className="hover:bg-blue-600 bg-blue-600">
-                        {currentStep === steps.length - 1 ? "Next" : "Next"}
+                        {currentStep === steps.length ? "Confirm" : "Next"}
                     </Button>
                 </div>
             </div>

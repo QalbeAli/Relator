@@ -5,6 +5,7 @@ import Stepper from './Stepper/Index'
 import Media from './Steps/Media/Index'
 import { StepperContext } from './StepperContext/StepperContext'
 import Detail from './Steps/Detail/Index'
+import Final from './Final/Index'
 const Index = () => {
 
     const [currentStep, setCurrentStep] = useState(1)
@@ -12,7 +13,8 @@ const Index = () => {
     const steps = [
         "Category",
         "Details",
-        "Media"
+        "Media",
+        "Completed"
     ]
 
 
@@ -24,6 +26,8 @@ const Index = () => {
                 return <Detail />
             case 3:
                 return <Media />
+            case 4:
+                return <Final />
         }
     }
 
